@@ -1,0 +1,35 @@
+body {
+    background-color: lightcyan;
+    color: rgb(197, 0, 115);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+#mainTitle {
+    position: relative;
+    font-family: "Norse";
+    text-decoration: rgb(235, 226, 105) dotted underline;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: -5px;
+    font-size: 5vw;
+    bottom: 2vw;
+    }
+
+#mainImage {
+    height: 38vw; 
+    width: 50%;
+    border-radius: 25%;
+    display: block;  
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.sectionTitle {
+    text-align:left; 
+    font-size: 25px;
+    margin: 4.4em;
+    transform: translateX(9vw);
+}
