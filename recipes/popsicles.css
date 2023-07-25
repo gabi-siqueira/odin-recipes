@@ -1,0 +1,68 @@
+body {
+    background-color: lightcyan;
+    color: rgb(197, 0, 115);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+#mainTitle {
+    position: relative;
+    font-family: "Norse";
+    text-decoration: rgb(235, 226, 105) dotted underline;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: -5px;
+    font-size: 4.7vw;
+    bottom: 2vw;
+    }
+
+.sectionTitle {
+color: rgb(150, 0, 87);
+font-weight: bold;
+text-align:left;
+margin-top: 1em;
+}
+
+#mainImage {
+  height: 42vw; 
+  width: 42vw;
+  border-radius: 25%;
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto;  
+  margin-bottom: 10px;
+}
+
+ol {
+    margin:0 0 1.5em;
+    padding:0;
+    counter-reset:item;
+    margin-top: 1em;
+  }
+   
+  ol>li {
+    margin:0;
+    padding:0 0 0 2em;
+    text-indent:-2em;
+    list-style-type:none;
+    counter-increment:item;
+  }
+   
+  ol>li:before {
+    display:inline-block;
+    width:1.5em;
+    padding-right:0.5em;
+    font-weight:bold;
+    text-align:right;
+    content:counter(item) ".";
+  }
+/*Three blocks above are designed to make the ol itens bold. Copyed and adapted from Stackoverflow*/
+
+ol li {
+    margin-bottom: 1em;
+}
+
+#description {
+    text-align: center;
+}
