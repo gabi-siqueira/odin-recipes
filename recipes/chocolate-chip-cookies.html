@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Recipes | Chocolate chip cookies</title>
+    <link rel="stylesheet" href="chocolate-chip-cookies.css">
 </head>
 <body>
-    <h1>Chocolate chip cookies</h1>
-    <img src="../recipes/images/chocolate-chip-cookies.jpg" alt="Chocolate chip cookies">
-    <!--I don't get why it works with .. before, since we're not talking about the index page-->
-    <br><p>Everyone needs a classic chocolate chip cookie recipe in their repertoire, and this is mine. It is seriously the Best Chocolate Chip Cookie Recipe Ever! I have been making these for many, many years and everyone who tries them agrees they're out-of-this-world delicious!</p>
-        <h2>Ingredients</h2>
-        <p>You are going to need:</p>
+    <h1 id="mainTitle">Chocolate chip cookies</h1>
+    <img id="mainImage" src="../recipes/images/chocolate-chip-cookies.jpg" class="pic" alt="Chocolate chip cookies">
+    <div id="description">Everyone needs a classic chocolate chip cookie recipe in their repertoire, and this is mine. It is seriously the Best Chocolate Chip Cookie Recipe Ever! I have been making these for many, many years and everyone who tries them agrees they're out-of-this-world delicious!</div>
+        <div class="sectionTitle">Ingredients</div>
         <ul>
             <li>Butter</li>
             <li>White sugar</li>
@@ -19,7 +18,7 @@
             <li>Sea salt</li>
             <li>Chocolate chips</li>
         </ul>
-            <h3>Steps</h3>
+            <div class="sectionTitle">Steps</div>
             <ol>
                 <li>The first step in making these easy chocolate chip cookies to to combine the dry ingredients in a medium size bowl.<br>When doing this, make sure to Measure the flour correctly. Be sure to use a measuring cup made for dry ingredients (NOT a pyrex liquid measuring cup). Then, measure flour by scooping it into a measuring cup and leveling it with a knife.</li>
                 <li>Next, cream together butter and sugars, make sure to soften the butter early by taking it out of the fridge at least two hours before baking so it's ready to go when you need it. You can also warm it in the microwave for about 7 seconds, but be very careful not to melt it.</li>
@@ -30,11 +29,10 @@
                 <li>Let'em cool down for 10 minutes and enjoy :)</li>
             </ol>
     <a href="https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/">Recipe reference here</a>
-        <h4>You may also like:</h4>
+        <div class="sectionTitle">You may also like:</div>
         <ul>    
-            <li><a href="brownies.html">Recipes | Brownies</a></li>
-            <!--Here, since it's all on the same folder, no need to specify-->
-            <li><a href="popsicles.html">Recipes | Popsicles</a></li>
+            <li><a href="brownies.html">Brownies</a></li>
+            <li><a href="popsicles.html">Popsicles</a></li>
         </ul>
         <a href="../index.html">Back to main menu</a>
     </body>
