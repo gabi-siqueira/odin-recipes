@@ -11,6 +11,4 @@ First HTML/CSS project from The Odin Project's curriculum.
 
 # Self Checklist
 **1. Insert clear commits-** Status: Done<br>
-**2. Add CSS-** Status: In process
-
-
+**2. Add CSS-** Status: DEPRECATED
